@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: Roboto, sans-serif;
+}
+.img {
+  margin: auto;
+  border: 10px solid green;
+  padding: 10px 10px 10px 200px;
+}
+h1 {
+  padding: 10px 10px 10px 100px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #07ac49;
+}
+.info .avatar {
+  margin-left: 100px;
+  margin-top: 15px;
+  width: 250px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+.social {
+  background: green;
+  padding: 2px;
+  padding-left: 50px;
+  border: 2px solid green;
+  border-radius: 15px;
+}
+.social a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.social a:hover {
+  text-decoration: underline;
+}
+/* .social a:visited {
+  color: gray;
+} */
+.container h3 {
+  color: aliceblue;
+}
+.container {
+  width: 65%;
+  margin: auto;
+  background-color: rgba(127, 127, 126, 0.2);
+  border-radius: 20px;
+}
+.container h1 {
+  font-style: italic;
+}
+.contact h2 {
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .contact {
+    background: #873bc1;
+    text-align: center;
+  }
+}
+  
+}
+.aboutYourself {
+  font-size: 20px;
+  padding-left: 30px;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #292e2b;
+}
+.form-group input,
+.form-group textarea {
+  /* display: none; */
+  width: 100%;
+  box-sizing: border-box;
+  border: none; /* этим убираем все border у элемента*/
+  /* background: transparent; */
+  border-bottom: 1px solid #ccc; /* а этим отдельно прописываем границы как нам надо*/
+  color: #000;
+  height: 40px;
+  font-size: 20px;
+  padding: 15px 0px 10px;
+  outline: none; /* убирает рабочку при наведении на поле ввода*/
+  font-family: inherit; /* означает, что шрифт будет наследован из основного шрифта файла*/
+}
+/* .form-group textarea {
+  font-size: 20px;
+  color: black;
+  font-family: inherit;
+} */
+.row {
+  display: flex;
+  margin-bottom: 30px;
+}
+.row > .form-group {
+  width: 50%;
+  /* margin-right: 20px; */
+}
+.row > .form-group:first-child /* В стиль row, внутрь в стиль form-group и первый элемент*/ {
+  margin-right: 10px;
+}
+.footer {
+  height: 10px;
+  background: none;
+}
+.btn {
+  color: black;
+  padding: 15px 20px;
+  font-family: inherit;
+  background: #07ac49;
+  border: 1px solid #07ac49;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
